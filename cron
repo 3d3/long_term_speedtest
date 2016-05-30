@@ -1,0 +1,3 @@
+#------------------------------------------------------------------------------#
+# Internet Speed capture cronjob
+*/15 * * * * /opt/speedtest/speedtest.sh >/dev/null 2>&1

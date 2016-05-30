@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# Chart Internet Speed
+# Internet Speed Long Term record
 # -med-2016-05-26
 
 #- Variables ------------------------------------------------------------------#
 TMPFILE=$(mktemp)
 
 SPEEDTEST_WEBDIR="/var/www/html/speedtest"
-SPEEDTEST_DIR="${SPEEDTEST_DIR}"
+SPEEDTEST_DIR="/opt/speedtest"
 SPEEDTEST="${SPEEDTEST_DIR}/speedtest-cli"
 SPEEDTEST_PARAMETER="--simple --secure"
 
